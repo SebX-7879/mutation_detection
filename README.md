@@ -11,3 +11,10 @@ data/
 │-- benchmark_test_outputs.csv
 │-- train_output.csv
 ```
+
+```git
+├── supplementary_data/
+│   ├── baseline.ipynb
+│   ├── test_metadata.csv
+│   └── train_metadata.csv
+```	
