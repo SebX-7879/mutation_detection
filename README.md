@@ -1,20 +1,27 @@
-# mutation_detection
+# Mutation Detection
 Owkin challenge : Weakly supervised learning for the detection of PIK3CA mutations in breast cancer
 
-## Dataset folder structure
+## Authors
+- **[Sébastien Mandela]** - *Initial work* - [SebX-7879](https://github.com/SebX-7879)
+
+## Project structure
 
 ```
-data/
-│-- supplementary_data/
-│-- test_input/
-│-- train_input/
-│-- benchmark_test_outputs.csv
-│-- train_output.csv
+mutation_detection/
+├── data/
+│   ├── supplementary_data/
+│   │   ├── baseline.ipynb
+│   │   ├── test_metadata.csv
+│   │   └── train_metadata.csv
+│   ├── test_input/
+│   ├── train_input/
+│   └── train_output.csv
+├── baseline.ipynb
+├── benchmark_test_outputs.csv
+├── download_data.py
+├── README.md
+├── requirements.txt
+├──
+└── working_space.ipynb
 ```
 
-```git
-├── supplementary_data/
-│   ├── baseline.ipynb
-│   ├── test_metadata.csv
-│   └── train_metadata.csv
-```	
