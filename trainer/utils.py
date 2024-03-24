@@ -53,6 +53,7 @@ def slide_level_train_step(
 
         # Compute logits and loss.
         logits = model(features, mask)
+        ## print(logits.dtype, labels.dtype)
         loss = criterion(logits, labels)
 
         # Optional: Gradient accumulation.
