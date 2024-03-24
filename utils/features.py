@@ -21,7 +21,7 @@ from torch.utils.data import DataLoader, Dataset
 from torch.utils.data.dataloader import default_collate
 from tqdm import tqdm
 
-from ..models import Extractor
+from models.utils.extractor import Extractor
 
 
 class TilesMap(Dataset):
