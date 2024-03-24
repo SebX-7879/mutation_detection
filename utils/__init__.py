@@ -22,7 +22,6 @@ from .cross_validation import (
 )
 from .features import (
     extract_from_tiles,
-    extract_from_slide,
     pad_collate_fn,
     preload_features,
 )
