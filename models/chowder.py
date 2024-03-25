@@ -131,6 +131,8 @@ class Chowder(nn.Module):
             hidden=tiles_mlp_hidden,
             bias=bias,
             out_features=out_features,
+            activation=nn.LeakyReLU(0.1),
+            dropout=nn.Dropout(p=0.3),
         )
         self.score_model.apply(self.weight_initialization)
 
