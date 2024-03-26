@@ -1,11 +1,12 @@
 gdown
 ipykernel
+Ipython
 loguru
 matplotlib
 numpy
 omegaconf
-openslide-python ## requires a specific download. See documentation
 pandas
 scikit-learn
 torch
+torchvision
 tqdm
