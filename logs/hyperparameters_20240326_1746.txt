@@ -1,0 +1,10 @@
+n_repeats: 1
+n_folds: 6
+num_epochs: 20
+learning_rate: 0.001
+weight_decay: 0.0001
+mlp_hidden: [256, 128, 64]
+mlp_activation: LeakyReLU(negative_slope=0.01)
+mlp_dropout: [0.5, 0.2, 0.1]
+batch_size: 8
+device: cuda:0
