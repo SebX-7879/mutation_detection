@@ -2,7 +2,7 @@
 **Project** : Weakly supervised learning for the detection of PIK3CA mutations in breast cancer.
 
 **Description** : This project focuses on detecting the PIK3CA mutation in breast cancer using histopathology slide images. These high-resolution images offer a detailed view of tissue samples, essential for identifying cellular abnormalities. Despite limited examples and slide-level labels, we explore the potential of deep neural architectures to overcome these challenges and provide robust and reasonable predictions.
-We employ the CHOWDER model, a deep learning approach tailored for weakly supervised learning in medical image analysis. Our goal is to enhance the model's performance in classifying and localizing diseases, specifically targeting the PIK3CA mutation within the complex landscape of breast cancer diagnostics
+We employ the [CHOWDER](https://arxiv.org/pdf/1802.02212.pdf) model proposed by [Owkin](https://www.owkin.com/), a deep learning approach tailored for weakly supervised learning in medical image analysis. Our goal is to enhance the model's performance in classifying whole-slide images as PIK3CA mutant or wild-type.
 
 
 #### Author 
@@ -71,4 +71,6 @@ python main.py
 
 Additionally, a working notebook is available in the `working_notebook.ipynb` file. It contains the entire pipeline, from data preprocessing, model training, to evaluation. It makes use of Kfold cross-validation, and thus benefits from multiple instance learners, providing a more robust training and evaluation process than the `main.py` script.
 
-
+### License
+This project is derived from another under-license project.
+See the [LICENSE](.\LICENSE.txt) file for details.
